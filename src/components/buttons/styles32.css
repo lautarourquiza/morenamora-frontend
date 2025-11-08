@@ -1,0 +1,49 @@
+/* Animación al aparecer */
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Animación al desaparecer */
+  @keyframes fadeOutDown {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+  }
+  
+  /* Animación al hacer clic (desaparecer hacia arriba rápidamente) */
+  @keyframes clickOut {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+  }
+  
+  /* Clases para aplicar las animaciones */
+  .animate-fadeInUp {
+    animation: fadeInUp 0.3s ease-out forwards;
+  }
+  
+  .animate-fadeOutDown {
+    animation: fadeOutDown 0.3s ease-in forwards;
+  }
+  
+  .animate-clickOut {
+    animation: clickOut 0.3s ;
+  }
+  
