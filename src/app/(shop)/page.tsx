@@ -2,7 +2,6 @@ import Slideshow from "@/components/ui/slideshow/Slideshow";
 import { Middle } from "@/components/static-components/Middle";
 import Image from "next/image";
 import BrandSlideShow from "@/components/ui/brand-slideshow/BrandSlideShow";
-import { ProductGrids } from "@/components/products/products-grid/ProductGrids";
 
 export default function Home() {
 

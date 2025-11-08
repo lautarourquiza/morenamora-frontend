@@ -1,8 +1,8 @@
 
-export default function() {
+export default function EmptyPage() {
   return (
     <div>
-      <h1>empty page</h1>
+      <h1>Hello Page</h1>
     </div>
   );
 }

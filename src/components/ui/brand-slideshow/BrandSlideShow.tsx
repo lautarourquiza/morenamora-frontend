@@ -1,5 +1,5 @@
 'use client'
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -15,7 +15,7 @@ import './styles2.css';
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
 
 export default function BrandSlideShow() {
-    const [thumbsSwiper, setThumbsSwiper] = useState(null);
+    const [thumbsSwiper] = useState(null);
 
     return (
         <div className='h-auto w-10/12 mx-auto my-12'>

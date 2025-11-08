@@ -15,7 +15,7 @@ export const ProductGrids = ({ products }: Props) => {
             {
                 products.map(product => (
 
-                    <div className='rounded-md border border-gray-300 m-5 justify-center flex flex-col p-4'>
+                    <div className='rounded-md border border-gray-300 m-5 justify-center flex flex-col p-4' key={product.slug}>
                         <Link key={product.slug} href={`/product/${product.slug}`}>
                             <Image src={`/products/${product.images[0]}`} alt={product.title} width={1000} height={1000} className='w-2/3 mx-auto' />
                         </Link>

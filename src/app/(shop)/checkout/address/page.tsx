@@ -1,8 +1,8 @@
 
-export default function() {
+export default function AddressPage() {
   return (
     <div>
-      <h1>Address page</h1>
+      <h1>Hello Page</h1>
     </div>
   );
 }

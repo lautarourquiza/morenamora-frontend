@@ -1,8 +1,8 @@
 
-export default function() {
+export default function CartWihtIDPage() {
   return (
     <div>
-      <h1>Cart page</h1>
+      <h1>Hello Page</h1>
     </div>
   );
 }

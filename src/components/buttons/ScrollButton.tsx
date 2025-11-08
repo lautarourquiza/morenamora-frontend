@@ -34,6 +34,7 @@ export const ScrollButton = () => {
   
     // Función para hacer scroll hasta arriba
     const scrollToTop = () => {
+      setIsClicked(true); // Inicia la animación de clic
       setTimeout(() => {
         window.scrollTo({
           top: 0,
